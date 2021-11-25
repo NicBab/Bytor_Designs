@@ -4,7 +4,7 @@ import './css/Portfolio.css'
 const Portfolio = () => {
     return (
         <div className="portfolioPg">
-            
+            Portfolio Page
         </div>
     )
 }
