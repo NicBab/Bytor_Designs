@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #490A57;
+  background-image: linear-gradient(to bottom right,#490A57, #8D22A3);
 }
 
 .footerIcons {
