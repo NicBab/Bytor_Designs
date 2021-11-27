@@ -24,6 +24,7 @@
   }
   
   .plus-menu.active {
+    height: 80%;
     opacity: 0.95;
     left: 0;
     transition: 350ms;
