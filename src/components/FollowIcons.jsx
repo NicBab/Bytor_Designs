@@ -22,7 +22,7 @@ const FollowIcons = () => {
 
     const onGhIconClick = () => {
         window.open("")
-
+    }
 
     return (
         <div id="iconsRow">

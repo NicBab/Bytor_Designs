@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import { MenuData } from "./MenuData";
-// import FollowIcons from './FollowIcons'
 import Plus from './Plus'
 import Logo from './Logo'
 import * as TiIcons from "react-icons/ti";
