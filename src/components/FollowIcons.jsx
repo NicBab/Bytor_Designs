@@ -1,5 +1,5 @@
 import React from 'react'
-import { linkedinIcon, facebookIcon, instagramIcon, twitterIcon, githubIcon } from '../Icons'
+import { facebookIcon, instagramIcon, githubIcon } from '../Icons'
 import './css/FollowIcons.css'
 
 const FollowIcons = () => {
