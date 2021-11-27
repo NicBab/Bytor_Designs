@@ -10,6 +10,13 @@
     font-size: 2rem;
     display: flex;
   }
+
+  .followPlus:hover,
+  .closeIcon:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
   
   .plus-menu {
     background-color: rgb(26, 25, 25);
