@@ -4,13 +4,13 @@
     align-items: center;
     margin-right: 5px;
     width: 180px;
-    
     border-radius: 20px;
+    border: .5px solid #A38433;
     background-color: #490A57;
   }
   
   .icons {
-      color: #22b685;
+    color: #22b685;
     margin: 5px;
     display: flex;
     align-items: center;
