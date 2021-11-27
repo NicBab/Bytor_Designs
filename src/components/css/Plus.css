@@ -19,14 +19,14 @@
     justify-content: start;
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     transition: 850ms;
   }
   
   .plus-menu.active {
     height: 80%;
     opacity: 0.95;
-    left: 0;
+    right: 0;
     transition: 350ms;
     border-radius: 20px;
   }
