@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import { MenuData } from "./MenuData";
-import FollowIcons from './FollowIcons'
+// import FollowIcons from './FollowIcons'
+import Plus from './Plus'
 import Logo from './Logo'
 import * as TiIcons from "react-icons/ti";
 import * as AiIcons from "react-icons/ai";
@@ -20,7 +21,7 @@ const Menu = () => {
             <TiIcons.TiThMenu onClick={showMenu} />
           </Link>
           <Logo />
-          <FollowIcons />
+          <Plus />
           <nav className={menu ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showMenu}>
               <li className="nav-toggle">
