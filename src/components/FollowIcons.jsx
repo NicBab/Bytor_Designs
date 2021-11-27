@@ -21,7 +21,7 @@ const FollowIcons = () => {
     }
 
     const onGhIconClick = () => {
-        window.open("")
+        window.open("https://github.com/NicBab/Bytor_Designs")
     }
 
     return (
