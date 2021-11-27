@@ -9,11 +9,11 @@ const FollowIcons = () => {
     }
 
     const onFbIconClick = () => {
-        window.open("")
+        window.open("https://www.facebook.com/bytordesign")
     }
 
     const onIgIconClick = () => {
-        window.open("")
+        window.open("https://www.instagram.com/xoxbytorxox/?fbclid=IwAR19MgrBbb4N8hvQPD_FDv5I2ozZsneg21j4e9zJ0Y_I1ORWFM1C-_Yz804")
     }
 
     const onTwitterClick = () => {

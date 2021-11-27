@@ -14,13 +14,13 @@ export const plusData = [
     },
     {
         title: "Facebook",
-        url: "",
+        url: "https://www.facebook.com/bytordesign",
         icon: <ImIcons.ImFacebook />,
         cName: "plus-text",
     },
     {
         title: "Instagram",
-        url: "",
+        url: "https://www.instagram.com/xoxbytorxox/?fbclid=IwAR19MgrBbb4N8hvQPD_FDv5I2ozZsneg21j4e9zJ0Y_I1ORWFM1C-_Yz804",
         icon: <BsIcons.BsInstagram/>,
         cName: "plus-text",
     },
