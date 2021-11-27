@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import { MenuData } from "./MenuData";
+import FollowIcons from './FollowIcons'
+import Logo from './Logo'
 import * as TiIcons from "react-icons/ti";
 import * as AiIcons from "react-icons/ai";
 import "./css/Menu.css";
@@ -12,11 +14,13 @@ const Menu = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#1FA378" }}>
+      <IconContext.Provider value={{ color: "#22b685" }}>
         <div className="nav">
           <Link to="#" className="burger">
             <TiIcons.TiThMenu onClick={showMenu} />
           </Link>
+          <Logo />
+          <FollowIcons />
           <nav className={menu ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items" onClick={showMenu}>
               <li className="nav-toggle">

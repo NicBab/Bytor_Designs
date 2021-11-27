@@ -1,0 +1,21 @@
+#iconsRow {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .icons {
+      color: #22b685;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
