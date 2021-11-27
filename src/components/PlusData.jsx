@@ -4,6 +4,7 @@ import * as GrIcons from 'react-icons/gr'
 import * as VscIcons from 'react-icons/vsc'
 import * as BsIcons from 'react-icons/bs'
 
+
 export const plusData = [
     {
         title: "LinkedIn",
@@ -31,7 +32,7 @@ export const plusData = [
     },
     {
         title: "GitHub",
-        url: "",
+        url: "https://github.com/NicBab/Bytor_Designs",
         icon: <VscIcons.VscGithub />,
         cName: "plus-text",
     },
