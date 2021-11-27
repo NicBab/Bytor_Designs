@@ -1,5 +1,5 @@
 .nav {
-  background-image: linear-gradient(to left,#490A57, #8D22A3, #490A57);
+    background-image: linear-gradient(to left,#490A57, #8D22A3, #490A57);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
