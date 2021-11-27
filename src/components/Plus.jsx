@@ -28,10 +28,10 @@ const Plus = () => {
             {plusData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
-                  <Link to={item.path}>
+                  <a href={item.url}>
                     {item.icon}
                     <span>{item.title}</span>
-                  </Link>
+                  </a>
                 </li>
               );
             })}
