@@ -5,7 +5,6 @@
   justify-content: center;
   padding: 1rem;
   background-color: #35073f;
-  /* background-image: linear-gradient(to bottom right,#490A57, #8D22A3, #490A57 ); */
 }
 
 .footerIcons {
@@ -47,27 +46,3 @@ footer > section > a:hover {
   font-size: 9pt;
 }
 
-/* section:last-of-type {
-  margin-right: 0;
-} */
-
-/* @media screen and (min-width: 800px) {
-  .site-footer {
-    flex-direction: row;
-  }
-
-  .footerIcons {
-    align-items: start;
-    margin-right: 5rem;
-    margin-top: 1rem;
-  }
-
-  footer > section {
-    margin-right: 5rem;
-  }
-
-  footer > section > h2 {
-    padding-bottom: 4px;
-    margin-bottom: 1rem;
-  }
-} */
