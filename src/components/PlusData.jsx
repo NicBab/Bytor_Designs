@@ -1,6 +1,5 @@
 import React from 'react'
 import * as ImIcons from 'react-icons/im'
-import * as GrIcons from 'react-icons/gr'
 import * as VscIcons from 'react-icons/vsc'
 import * as BsIcons from 'react-icons/bs'
 
