@@ -11,13 +11,17 @@
 }
 
 figCaption {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   color: black;
   text-indent: 2em;
   font-size: 12pt;
   line-height: 1.5;
   padding: 20px;
   margin: 20px;
-
+  
+/*shadowed card*/
   background: rgba(78, 240, 197, 0.441);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -27,9 +31,20 @@ figCaption {
   box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
 }
 
+p {
+  padding: 5px;
+}
+
 @media screen and (min-width: 900px) {
   figcaption {
     max-width: 900px;
     font-size: 14pt;
+    
+  }
+}
+
+@media screen and (min-width: 450px) {
+  figcaption {
+    flex-direction: row;
   }
 }
