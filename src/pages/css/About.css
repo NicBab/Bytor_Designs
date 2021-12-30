@@ -1,14 +1,18 @@
 .aboutPg {
   text-align: center;
   background-color: #505956;
-}
-
-.aboutContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+/* .aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 
 figCaption {
   display: flex;
@@ -39,7 +43,6 @@ p {
   figcaption {
     max-width: 900px;
     font-size: 14pt;
-    
   }
 }
 

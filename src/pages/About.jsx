@@ -1,13 +1,11 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 import newVectorCharacter from '../Images/new_vector_character.png'
 import './css/About.css'
 
 const About = () => {
     return (
         <div className="aboutPg">
-            <Container className="aboutContainer">
-             <figcaption>
+            <figcaption>
               <img
                 className="aboutImg"
                 style={{ maxWidth: "8em", height: "8em" }}
@@ -20,8 +18,7 @@ const About = () => {
                 He is also passionate about vector art, logo and marketing material design, and video editing. 
                 When he’s not designing original pieces or bringing someone’s brand vision to life, you can find Dylan in the kitchen, 
                 crafting his own recipes as a professionally-trained chef.</p>
-              </figcaption>
-            </Container>
+            </figcaption>
         </div>
     )
 }
