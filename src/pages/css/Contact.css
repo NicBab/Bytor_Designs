@@ -1,5 +1,5 @@
 .contactPg {
-  background-color: #505956;
+  background-color: #DBBE97;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .contactContainer {
-  background: rgba(78, 240, 197, 0.441);
+  background-color: #5c106d;
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 0.9px solid rgba(55, 204, 154, 0.65);

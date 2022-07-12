@@ -1,6 +1,6 @@
 .aboutPg {
   text-align: center;
-  background-color: #505956;
+  background-color: #DBBE97;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +24,7 @@ figCaption {
   line-height: 1.5;
   padding: 20px;
   margin: 20px;
+  font-family: "Lora", serif;
   
 /*shadowed card*/
   background: rgba(78, 240, 197, 0.441);
