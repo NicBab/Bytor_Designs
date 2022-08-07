@@ -3,3 +3,4 @@ export { default as Menu } from './Menu'
 export { default as Logo } from './Logo'
 export { default as FollowIcons } from './FollowIcons'
 export { default as Footer } from './Footer'
+export { default as BackgroundImg } from "./background/Background"

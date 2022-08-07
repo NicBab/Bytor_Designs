@@ -1,9 +1,10 @@
 .contactPg {
-  background-color: #DBBE97;
+  background-color: #f6e5cf;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  height: 100vh;
   z-index: -3;
 }
 

@@ -1,10 +1,12 @@
 import React from 'react'
+import Background from '../components/background/Background'
 import newVectorCharacter from '../Images/new_vector_character.png'
 import './css/About.css'
 
 const About = () => {
     return (
         <div className="aboutPg">
+          
             <figcaption>
               <img
                 className="aboutImg"
