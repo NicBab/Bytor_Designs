@@ -1,5 +1,4 @@
 import React from 'react'
-import Background from '../components/background/Background'
 import newVectorCharacter from '../Images/new_vector_character.png'
 import './css/About.css'
 
