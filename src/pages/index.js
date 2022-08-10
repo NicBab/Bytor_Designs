@@ -1,4 +1,5 @@
-export { default as About } from './About'
-export { default as Contact } from './Contact'
-export { default as Portfolio } from './Portfolio'
-export { default as Resume } from './Resume'
+export { default as AboutPg } from './AboutPg'
+export { default as ContactPg } from './ContactPg'
+export { default as PortfolioPg } from './PortfolioPg'
+export { default as ResumePg } from './ResumePg'
+export { default as HomePg } from "./HomePg"

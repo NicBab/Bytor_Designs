@@ -12,7 +12,7 @@ const Plus = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#22b685" }}>
+      <IconContext.Provider value={{ color: "white" }}>
         <div className="followPlus">
           <Link to="#" className="plus-sign">
             <BiIcons.BiPlusCircle onClick={showPlus} />

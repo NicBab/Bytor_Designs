@@ -1,0 +1,102 @@
+.portfolioPg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+    background-color: #61f25c13;
+  }
+  
+  .p-img-container {
+    width: 80vw;
+    padding: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: rgba(95, 95, 95, 0.651);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 0.5px solid #1640151c;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .portfoContactBtn {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to bottom left, rgba(55, 5, 95, 0.899), rgba(150, 249, 222, 0.069));
+    position: absolute;
+    right: 0;
+    margin: -120px 100px 0px 0px;
+    box-shadow: 10px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.1s ease;
+  }
+  
+  .portfoContactBtn:hover {
+    transform: scale(1.01)
+  }
+  
+  .projectLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(247, 247, 60);
+    padding: 18px;
+    font-size: 18pt;
+    margin: 4px;
+  }
+  
+  .projectImg {
+    border-radius: 10px;
+    max-width: 14em;
+    max-height: 14rem;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projectImg:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .portfolioDescription {
+    font-size: 12pt;
+    color: rgb(243, 243, 201);
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .portfolioPg {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .p-img-container {
+      width: 300px;
+      height: 400px;
+      margin-left: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 870px) {
+    .p-img-container {
+      max-width: 90vw;
+      margin-left: 0;
+      margin: auto;
+    }
+  }
+
+  @media screen and ( max-width: 1100px) {
+    .p-img-container {
+      max-width: 90vw;
+      margin: auto;
+    }
+  }

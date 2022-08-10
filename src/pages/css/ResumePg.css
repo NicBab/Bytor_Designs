@@ -1,0 +1,7 @@
+.resumePg {
+  height: 110vh;
+  text-align: center;
+  background-image: url("../../Images/newVecChar.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}

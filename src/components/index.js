@@ -1,6 +1,10 @@
 export { default as Header } from './Header'
 export { default as Menu } from './Menu'
 export { default as Logo } from './Logo'
+export { default as Plus } from "./Plus"
 export { default as FollowIcons } from './FollowIcons'
 export { default as Footer } from './Footer'
-export { default as BackgroundImg } from "./background/Background"
+export { default as Nav } from "./Nav"
+export { default as About } from "./About"
+export { default as ImgModel } from "./ImgModel"
+export { default as Contact } from "./Contact"

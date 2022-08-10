@@ -1,0 +1,27 @@
+.navLinks {
+    font-weight: 400;
+    font-size: 8pt;
+    position: absolute;
+    left: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    margin: 20px;
+    color: #e2fae1;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.08s ease;
+}
+
+.navLink:hover {
+    transform: scale(1.04);
+    color: #f981f7;
+}
+
+/* show Nav Links text when screen size is >1000px */
+@media screen and (max-width: 1000px) {
+    .navLinks {
+        display: none;
+    }
+}

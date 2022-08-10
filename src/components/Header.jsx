@@ -1,12 +1,15 @@
 import React from 'react'
-import Menu from './Menu'
+import { Nav, Menu, Logo, Plus } from "../components/index"
 import './css/Header.css'
 
 const Header = () => {
     return (
         <>
-        <div className="headerPg">
+        <div className="header">
+            <Nav/>
             <Menu />
+            <Logo/>
+            <Plus/>
         </div>
         </>
     )

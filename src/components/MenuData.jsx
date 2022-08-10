@@ -3,18 +3,19 @@ import * as BsIcons from "react-icons/bs";
 import * as MdIcons from "react-icons/md";
 import * as RiIcons from "react-icons/ri";
 import * as GoIcons from "react-icons/go";
+import * as AiIcons from "react-icons/ai";
 
 export const MenuData = [
   {
-    title: "About",
+    title: "Home",
     path: "/",
-    icon: <BsIcons.BsInfoCircle />,
-    cName: "menu-text",
+    icon: <AiIcons.AiOutlineHome/>,
+    cName: "menu-text"
   },
   {
-    title: "Contact",
-    path: "/contact",
-    icon: <GoIcons.GoMail />,
+    title: "About",
+    path: "/about",
+    icon: <BsIcons.BsInfoCircle />,
     cName: "menu-text",
   },
   {
@@ -29,4 +30,10 @@ export const MenuData = [
     icon: <RiIcons.RiFolderUserLine />,
     cName: "menu-text",
   },
+  {
+    title: "Contact",
+    path: "/contact",
+    icon: <GoIcons.GoMail />,
+    cName: "menu-text",
+  }
 ];
