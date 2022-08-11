@@ -8,14 +8,13 @@
 .navLink {
     text-decoration: none;
     margin: 20px;
-    color: #e2fae1;
+    color: #f0f9f0;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: 0.08s ease;
+    transition: .1s ease;
 }
 
 .navLink:hover {
-    transform: scale(1.04);
     color: #f981f7;
 }
 

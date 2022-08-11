@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  height: 50vh;
+  min-height: 500px;
   width: 100vw;
   background-color: #35073f;
 }
@@ -49,4 +50,4 @@ footer>section>a:hover {
   width: 150px;
 }
 
-@media screen and (max-width: 800px) {}
+/* @media screen and (max-width: 800px) {} */

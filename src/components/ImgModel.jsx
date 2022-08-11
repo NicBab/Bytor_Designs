@@ -7,12 +7,13 @@ import ImageListItem from "@mui/material/ImageListItem";
 
 const Portfolio = () => {
   let Gal = gallery.sort(() => Math.random() - 0.5);
+  
   return (
     <>
       <div className="portfolioPg">
         <div className="p-img-container">
           <ImageList variant="masonry" cols={5} gap={8}>
-            {Gal.map((item, index) => (
+            {Gal.map((item) => (
               <ImageListItem key={item.img}>
                 <img
                   src={`${item.img}?w=248&fit=crop&auto=format`}

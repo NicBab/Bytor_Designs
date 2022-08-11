@@ -1,7 +1,39 @@
-.resumePg {
-  height: 110vh;
-  text-align: center;
-  background-image: url("../../Images/newVecChar.png");
-  background-size:contain;
-  background-repeat: no-repeat;
+.res-page {
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #61f25c13;
+}
+
+.res-container {
+  height: 200px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom left, #35073f, #35073fde);
+  /* backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); */
+  border: 0.5px solid rgba(128, 128, 128, 0.224);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+ 
+
+}
+
+.res-P {
+  color: rgb(224, 223, 223);
+  font-size: 11pt;
+  min-height: 333px;
+}
+
+@media screen and (max-width: 1130px) {
+  .res-page {
+      flex-direction: column;
+      align-items: center;
+      min-height: 1000px;
+  }
 }
