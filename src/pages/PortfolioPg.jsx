@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Slider } from "../components/index";
 
 const PortfolioPg = () => {
   return (
-    <div>view Portfolio</div>
-  )
-}
+    <div>
+      <Slider />
+    </div>
+  );
+};
 
-export default PortfolioPg
+export default PortfolioPg;

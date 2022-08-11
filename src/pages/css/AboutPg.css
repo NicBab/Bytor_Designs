@@ -27,11 +27,11 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom left, #35073f, #35073fde);
-    /* backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px); */
+    background-image: linear-gradient(to bottom left, #35073fdf, #35073fae);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
     border: 0.5px solid rgba(128, 128, 128, 0.224);
-    box-shadow: 10px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 4px 2px rgba(31, 10, 60, 0.385);
   }
 
   .bio-P {
