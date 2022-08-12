@@ -7,8 +7,8 @@
   }
   
   .about-Pg-Bg{
-    height: 90vh;
-    width: 40vw;
+    height: 900px;
+    width: 600px;
     position: absolute;
     z-index: -1;
   }
@@ -21,11 +21,11 @@
   }
   
   .about-bio-container {
-    height: 200px;
+    height: 250px;
     min-width: 300px;
     max-width: 300px;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     background-image: linear-gradient(to bottom left, #35073fdf, #35073fae);
     backdrop-filter: blur(1px);
@@ -38,4 +38,5 @@
     color: rgb(224, 223, 223);
     font-size: 11pt;
     min-height: 333px;
+  
   }

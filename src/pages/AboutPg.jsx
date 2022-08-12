@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/AboutPg.css";
 import newVecChar from "../Images/newVecChar.png";
+import { FollowIcons } from "../components/index"
 
 const AboutPg = () => {
   return (
@@ -15,7 +16,9 @@ const AboutPg = () => {
           style in multiple mediums. When he’s not designing original pieces or
           bringing someone’s brand vision to life, you can find Dylan in the
           kitchen, crafting his own recipes as a professionally-trained chef.
+          <FollowIcons />
         </p>
+        
       </div>
     </div>
   );
