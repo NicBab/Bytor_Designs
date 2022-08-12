@@ -16,8 +16,6 @@ const Resume = () => {
           <p className="res-p-title">INTERESTS</p>
         </div>
       </div>
-
-
     </div>
   );
 };

@@ -6,6 +6,7 @@ import { gallery } from "../data";
 
 const Container = styled.div`
   width: 100vw;
+  
   height: 60vh;
   display: flex;
   position: relative;
@@ -59,13 +60,14 @@ const ImgContainer = styled.div`
   justify-content: center;
   height: 500px;
   width: 500px;
+  max-width: 950px;
   flex: 1;
   overflow: hidden;
 
   margin: 50px;
-  background-color: #999;
+  background-image: linear-gradient(to bottom left, #8e4d9c, #35073fc2);
   border-radius: 10px;
-  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
 `;
 
 const Image = styled.img`

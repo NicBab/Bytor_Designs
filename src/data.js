@@ -12,43 +12,45 @@ import newCollageScience from "./Images/newcollagescience.jpg";
 
 export const gallery = [
   {
-    id: 1,
+    id: 0,
     img: bonkerz2,
+    original: bonkerz2,
+    thumbnail: bonkerz2,
   },
   {
-    id: 2,
+    id: 1,
     img: firewerks,
   },
   {
-    id: 3,
+    id: 2,
     img: lazardala,
   },
   {
-    id: 4,
+    id: 3,
     img: motherMycelia,
   },
   {
-    id: 5,
+    id: 4,
     img: birdBones,
   },
   {
-    id: 6,
+    id: 5,
     img: crclspstr_ps,
   },
   {
-    id: 7,
+    id: 6,
     img: flier,
   },
   {
-    id: 8,
+    id: 7,
     img: newVectorCharacter,
   },
   {
-    id: 9,
+    id: 8,
     img: headsplosion_01,
   },
   {
-    id: 10,
+    id: 9,
     img: newCollageScience,
   },
 ];
